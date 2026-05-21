@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "daily-learning",
   description: "论文笔记与项目开发",
+  base:'/daily-learning/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
