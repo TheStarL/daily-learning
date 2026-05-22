@@ -52,6 +52,7 @@ export default defineConfig({
           text: '工业异常检测',
           items: [
             { text: '概述', link: '/anomaly-detection/' },
+            { text: 'Res2CLIP', link: '/anomaly-detection/res2clip' },
           ],
         },
       ],
@@ -105,7 +106,6 @@ export default defineConfig({
       text: '最后更新于',
       formatOptions: {
         dateStyle: 'medium',
-        timeStyle: 'short',
       },
     },
 
